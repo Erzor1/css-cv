@@ -4,6 +4,7 @@ body {
   background-color: #f5f5f5;
   color: black;
   font: normal 16px "Roboto", sans-serif;
+  background-image: url(фон.jpg);
 }
 
 .avatar {
@@ -150,10 +151,13 @@ a:visited {
   border: none;
   font-family: inherit;
   cursor: pointer;
+  transition: 5s all;
 }
 
 .btn:hover {
   opacity: 0.9;
+  transform: rotate(360deg);
+  background: #86898f;
 }
 
 /* Position (отдельная тема, крайние 10 мин урока)
